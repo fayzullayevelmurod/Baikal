@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Gadugi';
+    src: url('Gadugi-Bold.woff2') format('woff2'),
+        url('Gadugi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gadugi';
+    src: url('Gadugi-Bold.woff2') format('woff2'),
+        url('Gadugi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gadugi';
+    src: url('Gadugi.woff2') format('woff2'),
+        url('Gadugi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,37 @@
+.footer {
+  padding-bottom: 104px;
+  .container {
+    padding: 82px 0 47px 0;
+    border-top: 1px solid #ffbd4e;
+    border-bottom: 1px solid #ffbd4e;
+  }
+  &-content {
+    display: flex;
+    align-items: start;
+    gap: 200px;
+    justify-content: center;
+  }
+  &-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    margin-bottom: 31px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.02em;
+    color: #ffffff6b;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
