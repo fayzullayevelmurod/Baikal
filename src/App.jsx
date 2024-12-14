@@ -1,4 +1,12 @@
-import { AboutUs, Intro, SelectTour, Footer, Contact } from './components';
+import {
+  AboutUs,
+  Intro,
+  SelectTour,
+  Footer,
+  Contact,
+  Reviews,
+  Journey,
+} from './components';
 
 export const App = () => {
   return (
@@ -20,6 +28,8 @@ export const App = () => {
       <Intro />
       <AboutUs />
       <SelectTour />
+      <Reviews />
+      <Journey />
       <Contact />
       <Footer />
     </div>

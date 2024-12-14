@@ -78,10 +78,11 @@ body {
   font-weight: 700;
   line-height: 56px;
   text-align: center;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 .title-text span {
   color: #ffbd4e;
+  text-transform: lowercase;
 }
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
