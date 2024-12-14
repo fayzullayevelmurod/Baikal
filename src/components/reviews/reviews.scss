@@ -22,6 +22,7 @@
     img {
       height: 100%;
       width: 100%;
+      object-fit: cover;
     }
   }
   &-content {
@@ -75,5 +76,37 @@
     display: flex;
     align-items: center;
     gap: 3px;
+  }
+}
+@media (max-width: 1720px) {
+  .reviews-container {
+    max-width: calc(100% - 20px);
+  }
+}
+@media (max-width: 1200px) {
+  .reviews-boxes {
+    padding: 58px 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .reviews-boxes {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .reviews-content,
+  .reviews-img__box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .reviews-img__box {
+    height: 500px;
+  }
+  .reviews-boxes {
+    padding-top: 20px;
+  }
+  .reviews {
+    padding-bottom: 100px;
   }
 }

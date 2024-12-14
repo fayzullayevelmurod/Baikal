@@ -2,7 +2,7 @@
   background: url(../../assets/intro-bg.png) no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 264px 0 165px 0;
+  padding: 264px 20px 165px 20px;
 
   &-title {
     font-family: 'Unbounded';
@@ -41,5 +41,47 @@
       text-decoration: none;
       justify-content: center;
     }
+  }
+}
+
+// media queris
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 50px;
+  }
+  .intro {
+    padding: 100px 20px 100px 20px;
+  }
+  .intro .selec-tour__box-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .intro .selec-tour__box-btn {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .intro .selec-tour {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .intro-title {
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 50px;
+  }
+  .intro .selec-tour {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .intro .selec-tour__box-title {
+    text-align: left;
+  }
+  .intro .selec-tour__box-btn {
+    justify-content: start;
   }
 }

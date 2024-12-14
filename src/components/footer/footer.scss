@@ -35,3 +35,17 @@
     gap: 8px;
   }
 }
+
+@media (max-width: 768px) {
+  .footer-content {
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-title {
+    margin-bottom: 20px;
+  }
+  .contact-top .title-text {
+    margin-bottom: 50px !important;
+  }
+}

@@ -91,3 +91,20 @@ input[type='number']::-webkit-outer-spin-button {
   appearance: none;
   margin: 0;
 }
+
+/* media */
+@media (max-width: 1250px) {
+  .container {
+    max-width: calc(100% - 20px);
+  }
+}
+@media (max-width: 700px) {
+  .title-text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .up-btn {
+    bottom: 30px;
+    right: 30px;
+  }
+}

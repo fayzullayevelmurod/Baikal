@@ -35,3 +35,48 @@
     justify-content: space-between;
   }
 }
+
+@media (max-width: 1024px) {
+  .about-us__box {
+    flex-direction: column;
+    align-items: start;
+  }
+  .about-us__content {
+    max-width: 100%;
+  }
+  .about-us__gallery {
+    img:not(.about-us__gallery-sub-img) {
+      max-width: 390px;
+      height: 322px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us__gallery {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 700px) {
+  .about-us__gallery {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 20px;
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }
+  .about-us__gallery-sub-img {
+    padding: 0;
+    margin-right: 0;
+  }
+  .about-us__content {
+    gap: 20px;
+  }
+  .about-us__desc {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

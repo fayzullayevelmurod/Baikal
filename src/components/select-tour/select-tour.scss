@@ -1,3 +1,8 @@
 .select-tour {
   padding: 73px 0 102px 0;
 }
+@media (max-width: 700px) {
+  .select-tour {
+    padding: 50px 0;
+  }
+}
