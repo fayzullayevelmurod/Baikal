@@ -108,8 +108,22 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .select-tour .tour-booking__form {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 700px) {
   .select-tour {
     padding: 50px 0;
+  }
+  .select-tour .tour-cards {
+    row-gap: 30px;
+  }
+  .select-tour .tour-booking__head {
+    flex-direction: column;
+  }
+  .select-tour {
+    padding-bottom: 0;
   }
 }

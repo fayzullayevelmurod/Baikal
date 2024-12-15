@@ -32,6 +32,10 @@ import nextUpArrow from './icons/next-up.svg';
 import calendar from './icons/calendar.svg';
 import airPlane from './icons/airplan.svg';
 import tourImg1 from './tour-img-1.png';
+import tourImg2 from './tour-img-2.png';
+import tourImg3 from './tour-img-3.png';
+import tourImg4 from './tour-img-4.png';
+import tourImg5 from './tour-img-5.png';
 import gitImg1 from './our-guides-1.png';
 import gitImg2 from './our-guides-2.png';
 import gitImg3 from './our-guides-3.png';
@@ -83,4 +87,8 @@ export default {
   gitImg6,
   slideNextArrow,
   slidePrevArrow,
+  tourImg2,
+  tourImg3,
+  tourImg4,
+  tourImg5,
 }

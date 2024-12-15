@@ -3,11 +3,12 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import assets from '../assets';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 const TeamSlider = () => {
   const swiperRef = useRef(null);
-
+  const [isBeginning, setIsBeginning] = useState(true);
+  const [isEnd, setIsEnd] = useState(false);
   const guides = [
     {
       name: 'Ольга',
@@ -46,26 +47,39 @@ const TeamSlider = () => {
       img: assets.gitImg6,
     },
   ];
-
+  const handleSlideChange = (swiper) => {
+    setIsBeginning(swiper.isBeginning);
+    setIsEnd(swiper.isEnd);
+  };
   return (
     <div className='slider-container'>
       <button
-        className='slide-btn custom-prev'
-        onClick={() => swiperRef.current && swiperRef.current.slidePrev()}
+        className={`slide-btn custom-prev ${isBeginning ? 'hidden' : ''}`}
+        onClick={() => {
+          swiperRef.current && swiperRef.current.slidePrev();
+        }}
       >
-        <img src={assets.slidePrevArrow} alt='' />
+        <img src={assets.slidePrevArrow} alt='Previous' />
       </button>
+
       <button
-        className='slide-btn custom-next'
-        onClick={() => swiperRef.current && swiperRef.current.slideNext()}
+        className={`slide-btn custom-next ${isEnd ? 'hidden' : ''}`}
+        onClick={() => {
+          swiperRef.current && swiperRef.current.slideNext();
+        }}
       >
-        <img src={assets.slideNextArrow} alt='' />
+        <img src={assets.slideNextArrow} alt='Next' />
       </button>
       <Swiper
         onSwiper={(swiper) => (swiperRef.current = swiper)}
+        onSlideChange={(swiper) => handleSlideChange(swiper)}
         spaceBetween={20}
-        slidesPerView={2}
+        slidesPerView={1}
         modules={[Navigation]}
+        breakpoints={{
+          768: { slidesPerView: 2 },
+          0: { slidesPerView: 1 },
+        }}
       >
         {guides.map((guide, index) => (
           <SwiperSlide key={index}>

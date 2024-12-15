@@ -50,3 +50,22 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .our-advantages__box {
+    width: 100%;
+  }
+  .our-advantages__boxes {
+    row-gap: 40px;
+  }
+  .our-advantages__box-title {
+    margin: 12px 0;
+  }
+  .our-advantages {
+    padding: 100px 0 15px 0;
+  }
+  .our-advantages .title-box {
+    padding: 40px 0;
+    margin-bottom: 50px;
+  }
+}
