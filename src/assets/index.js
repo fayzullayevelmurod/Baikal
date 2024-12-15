@@ -23,6 +23,16 @@ import journeyImg7 from './journey-img-7.png';
 import journeyImg8 from './journey-img-8.png';
 import journeyImg9 from './journey-img-9.png';
 import compas from './compas.svg';
+import map1 from './map-1.svg';
+import map2 from './map-2.svg';
+import map3 from './map-3.svg';
+import map4 from './map-4.svg';
+import map5 from './map-5.svg';
+import nextUpArrow from './icons/next-up.svg';
+import calendar from './icons/calendar.svg';
+import airPlane from './icons/airplan.svg';
+import tourImg1 from './tour-img-1.png';
+
 export default {
   nextArrow,
   aboutUsImg1,
@@ -48,5 +58,14 @@ export default {
   journeyImg7,
   journeyImg8,
   journeyImg9,
-  compas
+  compas,
+  map1,
+  map2,
+  map3,
+  map4,
+  map5,
+  tourImg1,
+  nextUpArrow,
+  calendar,
+  airPlane
 }
