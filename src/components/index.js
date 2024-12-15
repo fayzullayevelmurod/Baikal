@@ -5,3 +5,5 @@ export { Footer } from './footer/footer.jsx'
 export { Contact } from './contact/contact.jsx';
 export { Reviews } from './reviews/reviews.jsx';
 export { Journey } from './journey/journey.jsx';
+export { OurAdvantages } from './our-advantages/our-advantages.jsx';
+export { OurGuides } from './our-guides/our-guides.jsx';

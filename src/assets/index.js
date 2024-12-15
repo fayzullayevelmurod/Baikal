@@ -32,7 +32,14 @@ import nextUpArrow from './icons/next-up.svg';
 import calendar from './icons/calendar.svg';
 import airPlane from './icons/airplan.svg';
 import tourImg1 from './tour-img-1.png';
-
+import gitImg1 from './our-guides-1.png';
+import gitImg2 from './our-guides-2.png';
+import gitImg3 from './our-guides-3.png';
+import gitImg4 from './our-guides-4.png';
+import gitImg5 from './our-guides-5.png';
+import gitImg6 from './our-guides-6.png';
+import slideNextArrow from './icons/slide-next-arrow.svg';
+import slidePrevArrow from './icons/prev-arrow.svg';
 export default {
   nextArrow,
   aboutUsImg1,
@@ -67,5 +74,13 @@ export default {
   tourImg1,
   nextUpArrow,
   calendar,
-  airPlane
+  airPlane,
+  gitImg1,
+  gitImg2,
+  gitImg3,
+  gitImg4,
+  gitImg5,
+  gitImg6,
+  slideNextArrow,
+  slidePrevArrow,
 }

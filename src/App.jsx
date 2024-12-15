@@ -6,6 +6,8 @@ import {
   Contact,
   Reviews,
   Journey,
+  OurAdvantages,
+  OurGuides,
 } from './components';
 
 export const App = () => {
@@ -28,6 +30,8 @@ export const App = () => {
       <Intro />
       <AboutUs />
       <SelectTour />
+      <OurAdvantages />
+      <OurGuides />
       <Reviews />
       <Journey />
       <Contact />

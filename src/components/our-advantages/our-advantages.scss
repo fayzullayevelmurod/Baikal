@@ -1,0 +1,52 @@
+.our-advantages {
+  padding: 126px 0 15px 0;
+  .title-box {
+    padding: 68px 0 55px 0;
+    background: url(../../assets/dots-line.svg) no-repeat;
+    background-size: cover;
+    margin-bottom: 113px;
+  }
+  &__boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    column-gap: 20px;
+  }
+  &__box {
+    width: 348px;
+    text-align: center;
+
+    .number-box {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      border: 3px solid #ffbd4e;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #aeaeae;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .number {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #aeaeae;
+    }
+    &-title {
+      margin: 12px 0 36px 0;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33.6px;
+    }
+    &-desc {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22.4px;
+    }
+  }
+}
