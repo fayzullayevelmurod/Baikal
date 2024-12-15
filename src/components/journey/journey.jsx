@@ -1,4 +1,5 @@
 import assets from '../../assets';
+import CoverflowSlider from '../CoverflowSlider';
 import { Title } from '../title';
 import './journey.scss';
 export const Journey = () => {
@@ -12,7 +13,7 @@ export const Journey = () => {
 
         <div className='journey-boxes'>
           <div className='journey-slider'>
-            <img
+            {/* <img
               className='journey-slider__img left'
               src={assets.journeyImg2}
               alt=''
@@ -22,7 +23,8 @@ export const Journey = () => {
               className='journey-slider__img right'
               src={assets.journeyImg3}
               alt=''
-            />
+            /> */}
+            <CoverflowSlider />
           </div>
           <div className='journey-gallery'>
             <img src={assets.journeyImg4} alt='' />
@@ -41,7 +43,11 @@ export const Journey = () => {
               интересные места региона. Включаем в программу только лучшее
               проживание, транспорт, питание, людей и достопримечательности.
             </p>
-            <img className='compas-content__img' src={assets.compas} alt='compas' />
+            <img
+              className='compas-content__img'
+              src={assets.compas}
+              alt='compas'
+            />
             <p className='compas-content__desc'>
               Работаем с группами до 10 человек и лично их сопровождаем. Ваш
               отдых будет идеально спланирован и максимально комфортен.
