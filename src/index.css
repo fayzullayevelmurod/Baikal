@@ -42,6 +42,9 @@ body {
   background-color: #070707;
   color: #fff;
 }
+body.overflow-hidden {
+  overflow: hidden;
+}
 
 .up-btn {
   position: fixed;

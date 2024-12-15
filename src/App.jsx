@@ -9,6 +9,7 @@ import {
   OurAdvantages,
   OurGuides,
 } from './components';
+import { Modal } from './components/modal/modal';
 
 export const App = () => {
   return (
@@ -36,6 +37,7 @@ export const App = () => {
       <Journey />
       <Contact />
       <Footer />
+      <Modal />
     </div>
   );
 };

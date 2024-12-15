@@ -3,7 +3,7 @@ import { Title } from '../title';
 import './contact.scss';
 export const Contact = () => {
   return (
-    <section className='contact'>
+    <section className='contact' id='contact'>
       <div className='container'>
         <div className='contact-top'>
           <Title subText='контакты' />
@@ -56,7 +56,7 @@ export const Contact = () => {
             Заказать звонок
           </a>
         </div>
-        <div className='contact-bottom'>
+        <div className='contact-bottom' id='contact-bottom'>
           <Title text='Остались вопросы?' />
           <form>
             <div className='inputs'>

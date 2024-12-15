@@ -7,21 +7,21 @@ export const Intro = () => {
       <div className='selec-tour'>
         <div className='selec-tour__box'>
           <h2 className='selec-tour__box-title'>Выбрать тур</h2>
-          <a className='selec-tour__box-btn' href='#!'>
+          <a className='selec-tour__box-btn' href='#selec-tour'>
             <span>Перейти</span>
             <img src={assets.nextArrow} alt='next arrow' />
           </a>
         </div>
         <div className='selec-tour__box'>
           <h2 className='selec-tour__box-title'>Оставить заявку</h2>
-          <a className='selec-tour__box-btn' href='#!'>
+          <a className='selec-tour__box-btn' href='#contact-bottom'>
             <span>Перейти</span>
             <img src={assets.nextArrow} alt='next arrow' />
           </a>
         </div>
         <div className='selec-tour__box'>
           <h2 className='selec-tour__box-title'>Контакты</h2>
-          <a className='selec-tour__box-btn' href='#!'>
+          <a className='selec-tour__box-btn' href='#contact'>
             <span>Перейти</span>
             <img src={assets.nextArrow} alt='next arrow' />
           </a>

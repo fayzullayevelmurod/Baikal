@@ -44,6 +44,11 @@ import gitImg5 from './our-guides-5.png';
 import gitImg6 from './our-guides-6.png';
 import slideNextArrow from './icons/slide-next-arrow.svg';
 import slidePrevArrow from './icons/prev-arrow.svg';
+import closeIcon from './close.svg';
+import calendarIcon from './calendar.svg';
+import difficulty from './difficulty.svg';
+import distance from './distance.svg';
+
 export default {
   nextArrow,
   aboutUsImg1,
@@ -91,4 +96,8 @@ export default {
   tourImg3,
   tourImg4,
   tourImg5,
+  closeIcon,
+  calendarIcon,
+  difficulty,
+  distance,
 }

@@ -4,7 +4,7 @@ import { Title } from '../title';
 import './select-tour.scss';
 export const SelectTour = () => {
   return (
-    <section className='select-tour'>
+    <section className='select-tour' id='selec-tour'>
       <div className='container'>
         <Title text='Выбрать' subText='тур' />
 
@@ -30,7 +30,7 @@ export const SelectTour = () => {
         <div className='tour-cards'>
           <Card />
         </div>
-        <div className='tour-booking'>
+        <div className='tour-booking' id='tour-booking'>
           <div className='tour-booking__head'>
             <h3 className='tour-booking__title'>Бронирование тура</h3>
             <p className='tour-booking__desc'>
