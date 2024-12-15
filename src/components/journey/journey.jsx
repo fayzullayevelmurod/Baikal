@@ -1,41 +1,60 @@
+import React, { useState } from 'react';
 import assets from '../../assets';
-import CoverflowSlider from '../CoverflowSlider';
 import { Title } from '../title';
 import './journey.scss';
+
 export const Journey = () => {
+  const [activeImage, setActiveImage] = useState(assets.journeyImg1);
+
+  const galleryImages = [
+    assets.journeyImg4,
+    assets.journeyImg5,
+    assets.journeyImg6,
+    assets.journeyImg7,
+    assets.journeyImg8,
+    assets.journeyImg9,
+  ];
+
   return (
-    <section className='journey'>
+    <section className='journey' id='journey'>
       <div className='journey-container'>
         <Title text='Виртуальное' subText='путешествие' />
         <p className='sub-title'>
-          Фото с наших мест Окунись в атмосферу наших маршрутов!
+          Фото с наших мест <br /> <br /> Окунись в атмосферу наших маршрутов!
         </p>
 
+        {/* Journey Slider */}
         <div className='journey-boxes'>
           <div className='journey-slider'>
-            {/* <img
+            <img
               className='journey-slider__img left'
               src={assets.journeyImg2}
               alt=''
             />
-            <img className='active-img' src={assets.journeyImg1} alt='' />
+            {/* Active rasm */}
+            <img className='active-img' src={activeImage} alt='Active' />
             <img
               className='journey-slider__img right'
               src={assets.journeyImg3}
               alt=''
-            /> */}
-            <CoverflowSlider />
+            />
           </div>
+
+          {/* Journey Gallery */}
           <div className='journey-gallery'>
-            <img src={assets.journeyImg4} alt='' />
-            <img src={assets.journeyImg5} alt='' />
-            <img src={assets.journeyImg6} alt='' />
-            <img src={assets.journeyImg7} alt='' />
-            <img src={assets.journeyImg8} alt='' />
-            <img src={assets.journeyImg9} alt='' />
+            {galleryImages.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Gallery-${index}`}
+                className='gallery-img'
+                onClick={() => setActiveImage(image)} // Bosilganda activeImage yangilanadi
+              />
+            ))}
           </div>
         </div>
 
+        {/* Compas Section */}
         <div className='compas'>
           <div className='compas-content'>
             <p className='compas-content__desc'>

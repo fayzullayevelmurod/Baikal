@@ -3,7 +3,7 @@ import { Title } from '../title';
 import './reviews.scss';
 export const Reviews = () => {
   return (
-    <section className='reviews'>
+    <section className='reviews' id='reviews'>
       <div className='reviews-container'>
         <Title text='Отзывы наших' subText='клиентов' />
         <div className='reviews-boxes'>

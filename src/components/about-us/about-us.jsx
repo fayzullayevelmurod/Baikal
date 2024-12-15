@@ -4,7 +4,7 @@ import './about-us.scss';
 
 export const AboutUs = () => {
   return (
-    <section className='about-us'>
+    <section className='about-us' id='about-us'>
       <div className='container'>
         <Title text='О' subText='нас' />
         <div className='about-us__box'>

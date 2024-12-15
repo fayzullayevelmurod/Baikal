@@ -9,22 +9,22 @@ export const Footer = () => {
             <h3 className='footer-title'>О компании</h3>
             <ul>
               <li>
-                <a className='footer-link' href='#!'>
+                <a className='footer-link' href='#about-us'>
                   О нас
                 </a>
               </li>
               <li>
-                <a className='footer-link' href='#!'>
+                <a className='footer-link' href='#our-guides'>
                   Команда
                 </a>
               </li>
               <li>
-                <a className='footer-link' href='#!'>
+                <a className='footer-link' href='#journey'>
                   Фотоотчеты
                 </a>
               </li>
               <li>
-                <a className='footer-link' href='#!'>
+                <a className='footer-link' href='#reviews'>
                   Отзывы
                 </a>
               </li>
@@ -34,12 +34,12 @@ export const Footer = () => {
             <h3 className='footer-title'>Услуги</h3>
             <ul>
               <li>
-                <a className='footer-link' href='#!'>
+                <a className='footer-link' href='#selec-tour'>
                   Выбрать тур
                 </a>
               </li>
               <li>
-                <a className='footer-link' href='#!'>
+                <a className='footer-link' href='#contact'>
                   Заказать звонок
                 </a>
               </li>
