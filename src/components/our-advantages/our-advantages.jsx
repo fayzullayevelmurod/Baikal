@@ -4,7 +4,7 @@ export const OurAdvantages = () => {
   return (
     <section className='our-advantages'>
       <div className='title-box'>
-        <Title text='Наши' subText='Наши' />
+        <Title text='Наши' subText='преимущества' />
       </div>
       <div className='container'>
         <div className='our-advantages__boxes'>
